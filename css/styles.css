@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    color: yellow;
+    text-align: center;
+}
+
+
+.pacmanwaka{
+   position: relative;
+   animation: waka 15s infinite;
+}
+
+@keyframes waka {
+    0% {top: 110px; left: 70px;}
+    5% {top: 110px; left: 120px;}
+    8% {top: 160px; left: 120px;}
+    10% {top: 160px; left: 170px;}
+    12% {top: 210px;}
+    15% {left: 210px;left: 120px;}
+    18% {left: 120px; top: 260px;}
+    22% {top: 260px; left: 75px;}
+    25% {left: 75px; top: 315px;}
+    28% {top: 315px; left: 0px;}
+    32% {left: 0px; left: 75px;}
+    35% {left: 75px; top: 215px;}
+    38% {top: 215px; left: 0px;}
+    42% {top: 260px;}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+      background-color: orangered;
+    }
+
+    @keyframes waka {
+        0% {top: 100px; left: 60px;}
+        5% {top: 100px; left: 110px;}
+        8% {top: 140px; left: 110px;}
+        10% {top: 140px; left: 150px;}
+        12% {top: 180px;}
+        15% {left: 180px;left: 110px;}
+        18% {left: 110px; top: 225px;}
+        22% {top: 225px; left: 65px;}
+        25% {left: 65px; top: 270px;}
+        28% {top: 270px; left: 0px;}
+        32% {left: 0px; left: 65px;}
+        35% {left: 65px; top: 185px;}
+        38% {top: 185px; left: 0px;}
+        42% {top: 220px;}
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+}
